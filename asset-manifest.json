@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pagina_institucional_em_react/static/css/main.ac15d4d5.css",
-    "main.js": "/Pagina_institucional_em_react/static/js/main.6b7a9d90.js",
+    "main.css": "/Pagina_institucional_em_react/static/css/main.d55f5ded.css",
+    "main.js": "/Pagina_institucional_em_react/static/js/main.faf9d906.js",
     "static/media/Diners.svg": "/Pagina_institucional_em_react/static/media/Diners.9d43271d73202eb2164e7469406f2931.svg",
     "static/media/Pagseguro.svg": "/Pagina_institucional_em_react/static/media/Pagseguro.5c2b863b386796b8b26a3560d30b7708.svg",
     "static/media/Visa.svg": "/Pagina_institucional_em_react/static/media/Visa.6749a4efff401ec98e7906ffb5289c56.svg",
@@ -26,11 +26,11 @@
     "static/media/close.svg": "/Pagina_institucional_em_react/static/media/close.c2939ba89845d285f34f532ed782b55b.svg",
     "index.html": "/Pagina_institucional_em_react/index.html",
     "static/media/Leftarrow.svg": "/Pagina_institucional_em_react/static/media/Leftarrow.212abcd8dd1ddabfdfdc28f32a8cdff7.svg",
-    "main.ac15d4d5.css.map": "/Pagina_institucional_em_react/static/css/main.ac15d4d5.css.map",
-    "main.6b7a9d90.js.map": "/Pagina_institucional_em_react/static/js/main.6b7a9d90.js.map"
+    "main.d55f5ded.css.map": "/Pagina_institucional_em_react/static/css/main.d55f5ded.css.map",
+    "main.faf9d906.js.map": "/Pagina_institucional_em_react/static/js/main.faf9d906.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac15d4d5.css",
-    "static/js/main.6b7a9d90.js"
+    "static/css/main.d55f5ded.css",
+    "static/js/main.faf9d906.js"
   ]
 }
