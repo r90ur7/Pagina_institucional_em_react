@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Pagina_institucional_em_react/desafio-5/static/css/main.ac15d4d5.css",
+    "main.js": "/Pagina_institucional_em_react/desafio-5/static/js/main.ad0a25d7.js",
+    "static/media/Diners.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Diners.9d43271d73202eb2164e7469406f2931.svg",
+    "static/media/Pagseguro.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Pagseguro.5c2b863b386796b8b26a3560d30b7708.svg",
+    "static/media/Visa.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Visa.6749a4efff401ec98e7906ffb5289c56.svg",
+    "static/media/Elo.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Elo.17a307d369cf6cc120e5902372a1bf04.svg",
+    "static/media/Hiper.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Hiper.2b98c03619d9ae95d4fdab8d50b5bfa4.svg",
+    "static/media/Boleto.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Boleto.83949f606d307c4d720d332c36501de1.svg",
+    "static/media/Master.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Master.cf5b8454012dff00f48abaf819ba1f16.svg",
+    "static/media/vtex-pci-200.svg": "/Pagina_institucional_em_react/desafio-5/static/media/vtex-pci-200.a942df5b453fee062a32e0434bc33bb4.svg",
+    "static/media/M3_NameLogo.svg": "/Pagina_institucional_em_react/desafio-5/static/media/M3_NameLogo.0c73d6145e59eae8c3164cea288e94eb.svg",
+    "static/media/VtexLogo.svg": "/Pagina_institucional_em_react/desafio-5/static/media/VtexLogo.80fc550e17441bd8e27fede2ead06b11.svg",
+    "static/media/Instagram.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Instagram.be789b343b82177dc44756ffa4283691.svg",
+    "static/media/Linkedin.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Linkedin.4d83a972e33b6637d858f4bd16ecbc4b.svg",
+    "static/media/Zap.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Zap.1afbc344665ead612015cb1ab958355a.svg",
+    "static/media/Twiter.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Twiter.77d079d335d01688ecb0d10545f13706.svg",
+    "static/media/cart_desk_icon.svg": "/Pagina_institucional_em_react/desafio-5/static/media/cart_desk_icon.b05f5e46dddcc1ea9cf19db70ead4af7.svg",
+    "static/media/home_icon.svg": "/Pagina_institucional_em_react/desafio-5/static/media/home_icon.8dc106c89f6f9f3909f273f806bc3c7d.svg",
+    "static/media/Youtube.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Youtube.b1bd9ae4e065aa8e6390222f6fcb20b9.svg",
+    "static/media/Uparrow.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Uparrow.86e8426f86376423a1a55bed6eb038be.svg",
+    "static/media/search_Icon_desk.svg": "/Pagina_institucional_em_react/desafio-5/static/media/search_Icon_desk.2ee026082e4978fd0a1ca0b667e0471d.svg",
+    "static/media/Facebook.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Facebook.5a30893e8c766c3d81b5ce4f30d95c1c.svg",
+    "static/media/Hamburger_menu.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Hamburger_menu.8bac8625e8f6124fbf9f449edd7660e2.svg",
+    "static/media/close.svg": "/Pagina_institucional_em_react/desafio-5/static/media/close.c2939ba89845d285f34f532ed782b55b.svg",
+    "index.html": "/Pagina_institucional_em_react/desafio-5/index.html",
+    "static/media/Leftarrow.svg": "/Pagina_institucional_em_react/desafio-5/static/media/Leftarrow.212abcd8dd1ddabfdfdc28f32a8cdff7.svg",
+    "main.ac15d4d5.css.map": "/Pagina_institucional_em_react/desafio-5/static/css/main.ac15d4d5.css.map",
+    "main.ad0a25d7.js.map": "/Pagina_institucional_em_react/desafio-5/static/js/main.ad0a25d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac15d4d5.css",
+    "static/js/main.ad0a25d7.js"
+  ]
+}
