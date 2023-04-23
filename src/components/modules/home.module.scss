@@ -1,0 +1,377 @@
+@import "../utils/Variables.scss";
+
+.hiden{
+    display: none !important;
+}
+
+.active{
+    display: block;
+}
+
+.btn{
+    &_open{
+        background: $-black;
+        font-weight: 700 !important;
+        color: $-white !important;
+        a{
+            color: $-white !important;
+        }
+    }
+
+}
+.main_wrapper{
+    width: 100%;
+    padding: 30px 100px 66px;
+    &_breadcrumb{
+        display: flex;
+        align-items: center;
+        margin: 30px 0 80px 0;
+        min-height: 18px;
+        img,
+        h5{
+            margin-right: 8px;
+        }
+        &_title{
+            font-family: 'Roboto',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color:$-gray-300;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: $-gray-300;
+        }
+        &-images{
+            border: 0;
+            display: flex;
+            align-items: center;
+            #iconarrow{
+                min-width: 8px;
+                height: 8px;
+            }
+        }
+    }
+    &_contend{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_title{
+            text-align: center;
+            font-family: 'Roboto',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+            margin-bottom: 80px;
+        }
+
+        &-main{
+            width: 100%;
+            display: flex;
+            gap: 30px;
+            &-departaments{
+                border-right: 2px solid $-black;
+                background: $-white;
+                display: flex;
+                flex-direction: column;
+                width: 40.291%;
+                min-width: 302px;
+                height: 286px;
+                button{
+                    width: 100%;
+                    height: 39px;
+                    text-align: start;
+                    padding-left: 10px;
+                    font-family: 'Roboto',sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: $-gray-bold;
+                    a{
+                        text-decoration: none;
+                        color: $-gray-bold;
+                    }
+
+                    &:hover{
+                        background: $-black;
+                        color: $-white;
+                        font-weight: 700;
+                        a{
+                            text-decoration: none;
+                            color: $-white;
+                        }
+                    }
+                }
+            }
+            &-section{
+                width: 100%;
+                #Sobre,
+                #contact{
+                    width: 100%;
+                }
+                #contact{
+                    .submitted{
+                        color: green;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    gap :12px;
+                    width: 100%;
+                    .contactTitlte{
+                        font-family: 'Roboto',sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                    }
+                    .form{
+                        &_col{
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            gap: 12px;
+                            &_Invalid{
+                                position: absolute;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                right: 0;
+                                padding: 0 20px;
+                                color: $-red
+                            }
+                            Label{
+                                padding: 0 20px;
+                                font-family: 'Roboto',sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: $-black-100E;
+                            }
+                            input{
+                                width: 100%;
+                                height: 46px;
+                                border: 1px solid $-black-100E;
+                                border-radius: 25px;
+                                padding: 15px 20px;
+                            }
+                            input[placeholder]{
+                                font-family: 'Roboto',sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: $-gray-B97;
+                            }
+                        }
+                        &_check{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 4.28px;
+                            #checkbox{
+                                &[type="checkbox"] {
+                                    display: none;
+                                }
+                            }
+                            .checkLabel {
+                                display: flex;
+                                align-items: center;
+                                flex-direction: row-reverse;
+                                gap: 4.28px;
+                                font-family: 'Roboto',sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 16px;
+                                text-decoration: underline;
+
+                                &:before{
+                                    content: "";
+                                    display: inline-block;
+                                    width: 20px;
+                                    height: 18px;
+                                    border: 1px solid $-black;
+                                    box-sizing: border-box;
+                                    border-radius: 4px;
+                                }
+                            }
+                            .Symbol{
+                                color: $-red;
+                                text-decoration: none;
+                            }
+                            .checked {
+                                &:before{
+                                    background: $-black-100E;
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        font-family: 'Roboto',sans-serif;
+                        background: $-black;
+                        color: $-white;
+                        align-items: center;
+                        letter-spacing: 0.05em;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        height: 52.44px;
+                        border-radius: 25px;
+                        width: 100%;
+                    }
+                }
+                #title{
+                    font-family: 'Roboto',sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    margin-bottom: 12px;
+                }
+                p{
+                    font-family: 'Roboto',sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 15px;
+                    color: $-gray-bold;
+                }
+            }
+        }
+    }
+}
+
+
+// 4k
+
+@media screen and (min-width: 2500px){
+        .main_wrapper{
+
+            padding: 30px 100px 84px;
+
+        &_breadcrumb{
+            min-height: 32px;
+            &_title{
+                font-size: 24px;
+                line-height: 28px;
+            }
+            #iconarrow{
+                min-width: 16px;
+                height: 16px;
+            }
+            #iconHome{
+                min-width: 32px;
+                height: 32px;
+            }
+        }
+        &_contend{
+            &_title{
+                font-size: 48px;
+                line-height: 56px;
+            }
+            &-main{
+                &-departaments{
+                    height: 466px;
+                    button{
+                    height: 58px;
+                    font-size: 32px;
+                    line-height: 38px;
+                    }
+                }
+                &-section{
+                    width: 100%;
+                    min-width: 1680px;
+                    #Sobre{
+                        #title{
+                            font-size: 48px;
+                            line-height: 56px;
+                        }
+                        p{
+                            font-size: 26px;
+                            line-height: 30px;
+                        }
+                    }
+                    #contact{
+                        .contactTitlte{
+                            font-size: 48px;
+                            line-height: 56px;
+                        }
+                        .form{
+                            &_col{
+                                label{
+                                    font-size: 28px;
+                                    line-height: 33px
+                                }
+                                input{
+                                    min-width: 100%;
+                                    width: 1680px;
+                                    height: 63px;
+                                }
+                                input[placeholder]{
+                                    font-size: 28px;
+                                    line-height: 33px;
+                                }
+                            }
+                            &_check{
+                                .checkLabel{
+                                    font-size: 28px;
+                                    line-height: 33px;
+                                    &:before{
+                                        content: "";
+                                        width: 36.4px;
+                                        height: 35.15px;
+                                    }
+                                }
+                            }
+                        }
+                        button{
+                            width: 100%;
+                            height: 71px;
+                            font-size: 32px;
+                            line-height: 38px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 1024px){
+    .main_wrapper{
+        padding: 30px 16px 80px;
+        &_contend{
+            &-main{
+                flex-direction: column;
+                &-departaments{
+                    min-width: 248px;
+                    border-right: 0;
+                    width: 100%;
+
+                }
+                &-section{
+                    min-width: 248px;
+                    #title{
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 18px;
+                        letter-spacing: 0em;
+                        text-align: justified;
+                    }
+                }
+            }
+        }
+    }
+}

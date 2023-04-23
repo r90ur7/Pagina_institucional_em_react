@@ -1,0 +1,320 @@
+@import "../utils/Variables.scss";
+
+//desktop
+
+.Header_wrapper {
+    display: flex;
+    color: white;
+    background: black;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22.225vh;
+    min-height: 120px;
+    max-height: 120px;
+    &-mobileTop{
+        display: none;
+    }
+    &-mobilebottom{
+        display: none;
+    }
+    // Top-header
+
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 100px;
+        gap: 10px;
+        width: 100%;
+        min-height: 63.333333333333%;
+        border-bottom: 1px solid $-gray-300;
+
+    &-logo {
+        border: 0;
+        width: 12.593%;
+        max-width: 264.61px;
+        margin: 3px 0;
+        img {
+            width: 100%;
+        }
+    }
+    &-Searchbox{
+        width: 24.445%;
+        height: 5.334vh;
+        max-width: 514.62px;
+        max-height: 28.8px;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        input{
+            width: 100%;
+            height: 100%;
+            padding: 7px 14% 7px 16px;
+            background: $-white;
+            border: 2px solid $-gray-200;
+            border-radius: 5px;
+            outline: 0;
+        }
+        input[placeholder] {
+            //digitação
+            color: $-gray-400 !important;
+            font-family: 'Roboto',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        button{
+            position: absolute;
+            top: 7px;
+            right: 16px;
+            width: 6.82%;
+            height: 62.52%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &-menu{
+        margin: 3px 0;
+        display: flex;
+        align-items: center;
+        gap: 55px;
+        width: 12.594%;
+        height: 90.35%;
+        order: 2;
+
+        &-login{
+            text-transform: uppercase;
+            color: $-white;
+            font-family: 'Roboto',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+
+        }
+
+        &-cart{
+            height: 28px;
+            width: 28px;
+            img{
+                min-width: 28px;
+                width: 100%;
+                min-height:28px;
+            }
+        }
+    }
+}
+    //bottom-header
+
+    &-bottom {
+        min-height: 36.666666666667%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 14px 100px;
+        gap: 10px;
+        &-navigator{
+            width: 32.686%;
+            ul{
+                list-style: none;
+                display: flex;
+                gap: 55px;
+                li{
+                    min-height: 16px;
+                    min-width: 54px;
+                    width: 100%;
+                    white-space: nowrap;
+                    button,a{
+                        width: 100%;
+                        height: 100%;
+                        font-family: 'Roboto',sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: $-white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 4k
+
+@media screen and (min-width: 2500px){
+    //desktop
+
+.Header_wrapper {
+    height: 15.312vh;
+    max-height: 100%;
+    min-height: 160px;
+
+    // Top-header
+
+    &-top {
+        &-logo {
+            width: 11.549%;
+            max-width: 100%;
+        }
+    &-Searchbox{
+        width: 22.435%;
+        height: 5.388vh;
+        min-height: 58px;
+        max-width: 100%;
+        max-height: 100%;
+
+        input[placeholder] {
+            //digitação
+            font-size: 28px;
+            line-height: 33px;
+        }
+
+        button{
+            width: 6.82%;
+            height: 76%;
+        }
+    }
+    &-menu{
+        width: 9.336%;
+        height: 93.85%;
+        &-login{
+            font-size: 28px;
+            line-height: 33px;
+        }
+
+        &-cart{
+            min-height: 56px;
+            max-height: 100%;
+            img{
+                min-width: 56px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+    //bottom-header
+
+    &-bottom {
+        &-navigator{
+            width: 25.56522%;
+            ul{
+                li{
+                    min-height: 33px;
+                    min-width: 54px;
+                    button{
+                            font-weight: 500;
+                            font-size: 28px;
+                            line-height: 33px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Mobile
+
+@media screen and (min-width: 280px) and (max-width: 1024px) {
+
+    .Header_wrapper {
+        height: 25.93vh;
+        max-height: 140px;
+        justify-content: flex-start;
+        // Top-header-mobile
+
+        &-mobileTop {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 16px;
+            gap: 10px;
+            height: 16.297vh;
+            max-height: 78px;
+            &-menu{
+                border: none;
+                min-height: 22.5px;
+                height: 4.083vh;
+                .hamburguer{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &-logo{
+                border: 0;
+                max-width: 136px;
+                width: 39.652%;
+                img{
+                    width: 100%;
+                }
+            }
+            &-cart{
+                height: 28px;
+                max-height: 100%;
+                img{
+                    min-width: 28px;
+                    height: 28px;
+                    max-width: 100%;
+            }
+        }
+    }
+    //bottom-header-mobile
+    &-mobilebottom{
+        display: flex;
+        align-items: center;
+        padding: 0 16px 25px 16px ;
+        &-Searchbox{
+            width: 100%;
+            height: 6.669vh;
+            max-height: 36px;
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            input{
+                width: 100%;
+                height: 100%;
+                padding: 7px 10% 7px 16px;
+                background: $-white;
+                border: 2px solid $-gray-200;
+                border-radius: 5px;
+            }
+            input[placeholder] {
+                //digitação
+                color: $-gray-400 !important;
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                outline: 0;
+            }
+            button{
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 7px 16px;
+                width: 18px;
+                height: 18px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+        // Top-header-desktop
+        &-top {
+            display: none;
+        }
+        //bottom-header-desktop
+        &-bottom {
+            display: none;
+        }
+    }
+}
